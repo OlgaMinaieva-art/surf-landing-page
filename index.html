@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>The Beach | Landing Page</title>
+  </head>
+  <body>
+    <header id="showcase">
+      <h1>
+        <span
+          ><strong><em>Surf</em></strong></span
+        >
+        Camps in Kuta, Bali
+      </h1>
+      <p>
+        Surf the Paradise with an amazing team of happy, professional and
+        dedicated individuals with one goal: Sharing their love and passion for
+        surfing!
+      </p>
+      <br />
+      <a class="button" href="#">Book Now </a>
+    </header>
+    <hr />
+    <section id="section-a">
+      <h2>
+        <span>SURF</span>
+        ADVENTURE
+      </h2>
+      <p>
+        Kuta is such a great surf destination, we simply can’t recommend it
+        enough! This exotic village is located in Southern Bali and it simply
+        abounds in beautiful beaches, sandy shorelines, and awesome surfing
+        spots. You should know that the weather is perfect all year round and
+        surfing in Kuta will suit all level surfers. Besides surfing, we
+        recommend you check out the party scene; it truly is one of a kind! Book
+        your Kuta surf camp today and get ready to have the time of your life!
+      </p>
+    </section>
+    <section id="section-b">
+      <h2>SUCCESSFUL <span>SURF</span> INSTRUCTION GUARANTEED</h2>
+      <p>
+        Either on your first class or on a multiple-days program, we have
+        instruction that makes sense. Clearly laid-out progression will let you
+        know where you are and where you need to go, beyond a one-time surfing
+        experience! Our commitment is not only to have you surfing on your first
+        lesson, but giving you the roadmap to become a complete surfer!
+      </p>
+    </section>
+    <section id="section-c">
+      <div class="box-1">
+        We will always find a spot where you feel comfortable, challenged, and
+        above-all safe!
+      </div>
+      <div class="box-2">
+        <img src="./img/serfschool.jpeg" alt="" />
+      </div>
+      <div class="box-3">
+        Surfing is a sport that lifts you up, empowers and motivates you! Your
+        stoke is our goal!
+      </div>
+    </section>
+    <footer id="footer">
+      <p>Coded by Olga Minaieva | All Rights Reserved &copy; 2023</p>
+    </footer>
+    <script>
+      function bookNow() {
+        let userName = prompt("Hello Surfer! What is your Name?");
+        let bookNow = prompt("Are you ready to Surf with Us? Yes or No 🤔");
+        bookNow = bookNow.toLowerCase();
+        if (bookNow === "yes") {
+          prompt("Please enter your email address");
+          alert(`Great ${userName} 🤩! We will contact you shortly!`);
+        } else {
+          alert(`Oh,no ${userName} 😩... Sad you are leaving...`);
+        }
+      }
+      let button = document.querySelector(".button");
+      button.addEventListener("click", bookNow);
+    </script>
+  </body>
+</html>

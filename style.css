@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #005555;
+  line-height: 1.6;
+}
+h2 {
+  padding-bottom: 15px;
+}
+
+span {
+  color: #ffc93c;
+}
+
+#showcase {
+  background: url(./img/serff.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  line-height: 1.2;
+  padding-bottom: 20px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+#showcase .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: #005555;
+  border: 1px solid #005555;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: #005555 1px 6px 6px 1px;
+  margin-top: 20px;
+  transition: 1s ease-in-out;
+}
+#showcase .button:hover {
+  background: #ffc93c;
+  color: #fff;
+  box-shadow: #ab4903 0px 6px 6px 0px;
+}
+
+#section-a {
+  padding: 20px;
+  background: #926239;
+  color: #fff;
+  text-align: center;
+}
+#section-b {
+  padding: 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+#section-c {
+  display: flex;
+}
+#sectiion-c div {
+  padding: 20px;
+}
+
+#section-c .box-1,
+.box-3 {
+  background: linear-gradient(
+    217deg,
+    rgb(244, 177, 6),
+    rgba(212, 216, 146, 0.5) 70.71%
+  );
+  color: #005555;
+  text-align: center;
+  padding-top: 100px;
+}
+#section-c .box-2,
+#section-c,
+box-3 {
+  background: #f9f9f9;
+}
+
+#section-c .box-2 {
+  background: #f4f4f4;
+}
+
+img {
+  width: 30vw;
+}
+#footer {
+  background: #f9f9f9;
+  color: #005555;
+  font-size: 12px;
+  text-align: center;
+}
